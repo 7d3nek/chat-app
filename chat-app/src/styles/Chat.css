@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #EEE;
+}
+/* Authentication page */
+.auth{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.auth h1{
+  margin-bottom: 20px;
+}
+
+.auth p{
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.auth button{
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.auth button:hover{
+  background-color: #333;
+}
+
+/* Application page */
+.user-info img{
+  width: 30px !important;
+  margin-top: -5px;
+  border-radius: 5px;
+}
+
+.userName{
+  margin-inline: 10px;
+}
+
+.room-container{
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.room-container form{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bi-box-arrow-right{
+  margin-left: 10px;
+}
+
+.bi-box-arrow-right:hover{
+  color: #888;
+}
+
+.table{
+  margin-top: 30px !important;
+  width: 70% !important;
+  margin: 0 auto;
+}
+
+.table .btn-danger{
+  margin-left: 5px;
+}
+
+/* Chat page */
+.message-container{
+  margin-block-start: 10vh;
+  width: 80% !important;
+}
+
+.message-box{
+  height: 70vh;
+}
+
+.message img{
+  width: 1.2rem;
+  border-radius: 50%;
+}
+
+.room-members{
+  margin-block-start: 10vh;
+}
+
+.room-members .btn{
+  font-size: 0.8rem;
+}
